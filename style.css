@@ -1,0 +1,248 @@
+#Fb {
+    width: 200px;
+    height: 38px;
+}
+
+#search {
+    width: 30px;
+    height: 30px;
+}
+
+#bars {
+    width: 30px;
+    height: 30px;
+}
+
+#HeadBar {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+#icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+div {
+    border: 10px;
+    margin: 10px;
+}
+
+#UnderIconBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#photo {
+    width: 45px;
+    height: 45px;
+    margin-top: 0px;
+
+}
+
+.placeholder {
+    width: 80%;
+    height: 30px;
+    background-color: rgb(234, 232, 232);
+    border-radius: 30px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 1px;
+    margin-top: 7px;
+}
+
+.divPhoto {
+    display: flex;
+    flex-direction: column;
+    margin-right: -15px;
+}
+
+#icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.photo-text {
+    margin-top: -3px;
+    font-weight: bold;
+    margin-left: 2px;
+}
+
+.green {
+    background-color: green;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin-top: -18px;
+    margin-left: 49px;
+}
+
+.iconParent {
+    display: flex;
+    flex-direction: column;
+
+}
+#Stories {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    white-space: nowrap;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    &::-webkit-scrollbar {
+            width: 6px;
+            /* Set the width as needed */
+        }
+    
+        &::-webkit-scrollbar-thumb {
+            background-color: transparent;
+            /* Set the background color as needed */
+        }
+}
+
+.story {
+    flex-shrink: 0;
+    width: 150px;
+    /* Adjust the number of stories displayed on one row */
+}
+
+.storyPhoto {
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+
+.button {
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+}
+
+#story1>.button {
+    font-size: 30px;
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+    margin-top: -174px;
+    margin-left: 50px;
+    color: white;
+    border-radius: 50%;
+    border: solid 3px;
+    border-color: white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding:0 ;
+    
+}
+
+.story>.button {
+    position: absolute;
+    z-index: 2;
+    margin-top:10px;
+    margin-left: 10px;
+    color: white; }
+#acceuil {
+    display: flex;
+}
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    border: SOLID 2PX;
+    width: 100%;
+}
+.right {
+    width: fit-content;
+    margin-right: 0;
+    
+}
+.left {
+    width: 80%;
+    margin-left: 0;
+    border-left: 0;
+    display: flex;
+    padding: 0;
+    border: SOLID 2PX;
+}
+#story1 {
+    display: flex;
+    flex-direction: column ;
+    min-width: 150px;
+    max-width: 150px;
+    margin: 0px;
+}
+
+.left1 {
+    width: 20%;
+    height: 50%;
+    border-radius: 30PX;
+    -webkit-border-radius: 30PX;
+    -moz-border-radius: 30PX;
+    -ms-border-radius: 30PX;
+    -o-border-radius: 30PX;
+}
+.left2 {
+    border: SOLID 2PX;
+}
+.left22 {
+    display: flex;
+    flex-direction: ROW;
+    border: SOLID 2PX;
+    padding: 0;
+    margin: 0;;
+}
+#story1 > .text {
+    font-size: 22px;
+    text-align: center;
+    color: rgb(9, 9, 9);
+    background-color: rgb(224, 231, 231);
+    height: 120px;
+    
+    margin-top:-25px ;
+    border-radius: 20px;
+    z-index: 0;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding-top: 20px;
+    border-top-right-radius: 0%;
+    border-top-left-radius: 0%;
+}
+.emojisContainer {
+    display: flex;
+    direction: column;
+    justify-content: space-around;
+}
+.emojis {
+    margin-left: -660px ;
+    
+
+}
+.nbreact1{
+    font-size: 20px;
+    margin-left: -1700px;
+    margin-top: 25px;
+}
+.bar {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
